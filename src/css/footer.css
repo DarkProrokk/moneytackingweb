@@ -1,0 +1,18 @@
+.contact a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer{
+    max-height: 10vh;
+    flex-shrink: 0;
+    background-color: #333;
+  }
+  .contact-ul {
+    list-style-type: none;
+  }
+  
+  .contact img {
+    width: 1%;
+    height: 1%;
+  }

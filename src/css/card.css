@@ -1,0 +1,110 @@
+.card-container {
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 20%;
+    min-height: 30vh;
+    list-style-type: none;
+    border-radius: 10%;
+    background-color: #312e2e;
+}
+
+
+.values-container{
+
+}
+
+.optional-container{
+
+}
+
+
+.values-container .title{
+
+    margin: 0;
+    text-align: center;
+    background-color: #4b4a4a;
+}
+
+.values-container .description{
+    background-color: #585656;
+    border-radius: 2%;
+    font-size: medium;
+    font-weight: 200;
+}
+
+.values-container .tags{
+    background-color: #646262;
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+.values-container .tags li {
+    background-color: #585656;
+    margin-left: 5%;
+}
+
+.values-container .price{
+    background-color: #4b4a4a;
+}
+
+.values-container .useful {
+    background-color: #585656;
+}
+
+.values-container .date {
+    background-color: #585858;
+}
+
+.many-cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.filter-card {
+    margin-top: 50px;
+}
+
+.filter-area {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .filter-label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .filters {
+    margin-top: 10px;
+  }
+  
+  .filter {
+    position: relative;
+    margin-bottom: 15px;
+    color: black;
+  }
+  
+  .filter-input {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    position: absolute;
+    z-index: 10;
+  }
+
+  .tags {
+    display: flex;
+    min-height: 8.9vh;
+    flex-direction: column;
+  }
+  
+  .tag {
+    flex-grow: 1;
+  }
